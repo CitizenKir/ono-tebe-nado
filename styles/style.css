@@ -1,1 +1,78 @@
-/* место для вашего кода */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 92px 24px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.13px;
+}
+
+.navbar__list {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 13px;
+  margin-left: 26.52px;
+  list-style: circle;
+}
+
+.navbar__item {
+  display: list-item;
+  text-decoration: underline;
+  margin-left: 15px;
+}
+
+.navbar__item:first-child {
+  list-style-type: none;
+}
+
+.active {
+  text-decoration: none;
+}
+
+.header__logo {
+  position: relative;
+  left: -70px;
+  width: 129.11px;
+  height: 104.65px;
+}
+
+.header__contacts {
+  display: flex;
+  flex-direction: column;
+  max-width: 240.52px;
+  margin-top: 5px;
+  margin-right: 25.48px;
+  margin-bottom: 2px;
+}
+
+.cover {
+  display: grid;
+  width: 100%;
+  height: 757px;
+  background-image: url('/images/cover.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 1;
+}
+
+.overlay {
+  height: 100%;
+  background: rgba(0, 0, 0, 1);
+  opacity: 0.5;
+  position: relative;
+  z-index: 2;
+}
+
+.cover__title {
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+  z-index: 3;
+}
+
+.aligned-text {
+  position: relative;
+  z-index: 4;
+}
