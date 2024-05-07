@@ -11,8 +11,8 @@
 .header__links-list {
     display: flex;
     justify-content: space-between;
-    column-gap: 16px;
-    margin-left: 14px;
+    column-gap: 19px;
+    margin-left: 26.52px;
     list-style: circle;
 }
 
@@ -37,7 +37,7 @@
 
 .header__logo {
     position: relative;
-    margin-right: 135px;
+    margin-right: 145px;
     width: 148px;
     height: 105px;
 }
@@ -334,7 +334,6 @@
     flex-direction: row;
     justify-content: space-between;
     width: 1000px;
-    min-height: 98px;
     margin: 180px auto 80px;
 }
 
